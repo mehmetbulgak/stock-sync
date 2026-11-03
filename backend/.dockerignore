@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+**/TestResults/
+tests/
+.config/
+dotnet-tools.json
+*.user
+.vs/
+.idea/
