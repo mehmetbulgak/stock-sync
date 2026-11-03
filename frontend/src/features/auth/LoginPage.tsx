@@ -57,8 +57,7 @@ export function LoginPage() {
 
       <div className="mt-6 rounded-xl border border-dashed border-brand-200 bg-brand-50/60 p-4">
         <p className="text-sm font-medium text-slate-900">Just looking around?</p>
-        <p className="mt-0.5 text-sm text-slate-600">A demo store with 18 products and three weeks of orders is ready.</p>
-        <p className="mt-1 text-xs text-slate-500">Shared sample data. Changes may reset. Please don’t enter personal information.</p>
+        <p className="mt-0.5 text-sm text-slate-600">Explore products, stock levels and orders without creating an account.</p>
         <Button variant="secondary" size="sm" className="mt-3" disabled={isSubmitting} onClick={() => void signIn(DEMO_CREDENTIALS)}>
           Open the demo store <ArrowRight />
         </Button>

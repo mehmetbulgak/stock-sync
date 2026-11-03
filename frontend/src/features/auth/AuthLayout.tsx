@@ -45,7 +45,6 @@ export function AuthLayout({ title, subtitle, children }: AuthLayoutProps) {
             ))}
           </ul>
         </div>
-        <p className="relative text-xs text-brand-100/50">Portfolio project · ASP.NET Core 10 + React</p>
       </aside>
 
       <main className="flex items-center justify-center px-6 py-12">
