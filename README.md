@@ -172,6 +172,9 @@ Highlights of the integration suite:
 
 Code checks that CI runs as well: `dotnet format --verify-no-changes`, `npm run lint`, `npm run format:check`, `npm run typecheck`.
 
+CodeQL runs automatically when the repository is public. The workflow skips private repositories, where code scanning
+requires a GitHub Code Security entitlement. The regular build, test and dependency-audit checks run for both visibilities.
+
 ## API
 
 | Method | Path | |
