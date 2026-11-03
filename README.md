@@ -14,6 +14,8 @@ stock count, the same last unit gets sold twice. StockSync keeps a single count 
 > Portfolio project by Mehmet Bulgak: ASP.NET Core 10 · EF Core · PostgreSQL · React 19 · TypeScript.
 > Demo login: `demo@stocksync.dev` / `Demo1234!` (or click **Open the demo store**).
 
+[**Open the live demo →**](https://stock-sync-h869.onrender.com/)
+
 ## What it does
 
 - **No overselling.** Stock is split into *on hand*, *reserved* and *available*. Orders reserve units, shipping commits them and
